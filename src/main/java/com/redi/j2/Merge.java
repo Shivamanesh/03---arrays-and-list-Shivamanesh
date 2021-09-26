@@ -1,4 +1,5 @@
 package com.redi.j2;
+import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -28,7 +29,7 @@ public class Merge {
     //TODO your code goes here
     List<Integer> merge = new ArrayList<Integer>();
     if(first.size() != 0 && second.size() != 0) {
-      for (int i = 0; i <= first.size(); i++) {
+      for (int i = 0; i < first.size(); i++) {
         merge.add(first.get(i));
         merge.add(second.get(i));
       }
@@ -36,5 +37,12 @@ public class Merge {
     return merge;
   }
 
+  public static void main(String[] args) {
+    List<Integer> resultList = mergeLists(
+            Arrays.asList(new Integer[]{1,2,3,4}),
+            Arrays.asList(new Integer[]{1,2,3,4})
+    );
+    System.out.println(resultList);
+  }
 
 }
