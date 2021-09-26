@@ -73,7 +73,7 @@ class FindElementTest {
   }
 
   private Method findLastInArray() throws Exception {
-    return FindElement.class.getMethod("findLastInArray", int[].class, int.class);
+    return FindElement.class.getMethod("findLastInArray", String[].class, String.class);
   }
 
   private Method findFirstInList() throws Exception {
