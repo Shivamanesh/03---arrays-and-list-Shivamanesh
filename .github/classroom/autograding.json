@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "FindElementTest",
+      "setup": "",
+      "run": "mvn clean -Dtest=FindElementTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "MergeArraysTest",
+      "setup": "",
+      "run": "mvn clean -Dtest=MergeArraysTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "PrintReversedTest",
+      "setup": "",
+      "run": "mvn clean -Dtest=PrintReversedTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "SecondSmallestTest",
+      "setup": "",
+      "run": "mvn clean -Dtest=SecondSmallestTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
