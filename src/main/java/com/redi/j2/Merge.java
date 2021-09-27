@@ -10,7 +10,7 @@ public class Merge {
     //TODO your code goes here
     int sizeOfMergedArray = first.length * 2;
     int merge[] = new int[sizeOfMergedArray];
-    if(first.length != 0 && second.length != 0 ) {
+    if(first.length != 0 && second.length != 0) {
       for (int i = 0; i < sizeOfMergedArray; i++) {
         if(i % 2 == 0){
           merge[i] = first[i - (1/2 * i)];
