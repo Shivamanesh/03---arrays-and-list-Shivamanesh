@@ -19,6 +19,7 @@ public class SecondSmallest<secondSmallest> {
         secondSmallest = intArray[k+1];
       }
     }
+
     return secondSmallest;
   }
     //return Integer.MAX_VALUE;

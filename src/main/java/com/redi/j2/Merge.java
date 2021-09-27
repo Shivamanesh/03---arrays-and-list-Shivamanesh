@@ -20,6 +20,7 @@ public class Merge {
         }
       }
     }
+
     return merge;
   }
 

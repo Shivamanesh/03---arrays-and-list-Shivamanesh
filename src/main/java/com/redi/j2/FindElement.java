@@ -10,6 +10,7 @@ public class FindElement {
         if (strings[i].equals(element)) {
           return i;
         }
+
       }
     }
     return -1;

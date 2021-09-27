@@ -20,6 +20,7 @@ public class PrintReversed {
           System.out.print(",");
         }
       }
+
       System.out.print("}");
 
   }
